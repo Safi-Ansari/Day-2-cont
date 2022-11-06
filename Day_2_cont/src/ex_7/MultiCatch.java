@@ -25,18 +25,18 @@ public class MultiCatch {
 			}
 			
 		}
-		catch (ArithmeticException ae)
-		{
+		
+		catch (ArithmeticException ae) {
 			System.out.println("Exception: " + ae);
 		}
 		
 		catch (IllegalArgumentException e) {
-    	    System.out.println(e.getMessage());
-       }
-		catch (NullPointerException ae)
+    	                System.out.println(e.getMessage());
+                }
+		/*catch (NullPointerException ae)
 		{
 			System.out.println("Exception: " + ae);
-		}
+		}*/
 	}
 	
 
