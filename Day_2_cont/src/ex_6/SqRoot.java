@@ -18,8 +18,8 @@ public class SqRoot {
 		    	   throw new IllegalArgumentException("Input cannot be negative.");
 		       }
 		       
-		       square = Math.sqrt(num);
-		       System.out.println("Square of "+num+" is: " + square);
+		       sq_root = Math.sqrt(num);
+		       System.out.println("Square root of "+num+" is: " + sq_root);
 		       System.out.println();
 		       
 	       }
