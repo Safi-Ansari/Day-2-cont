@@ -1,7 +1,6 @@
 package ex_6;
 import java.util.*;
 
-
 public class SqRoot {
 	
 	 public static void main(String[] args) {
